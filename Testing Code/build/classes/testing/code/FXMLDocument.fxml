@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane id="AnchorPane" fx:id="aPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testing.code.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="368.0" layoutY="275.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="366.0" layoutY="318.0" minHeight="16" minWidth="69" />
+      <Label fx:id="label2" />
+      <Circle fx:id="TestPlayer" fill="DODGERBLUE" layoutX="39.0" layoutY="561.0" onKeyPressed="#handleButtonAction2" onKeyReleased="#handleButtonAction2" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+    </children>
+</AnchorPane>

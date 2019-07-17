@@ -14,3 +14,5 @@ There are also Java Programs I made which answered some
 * Hash Tables
 * Graphs
 * Sorting
+* data types
+* User input functions
